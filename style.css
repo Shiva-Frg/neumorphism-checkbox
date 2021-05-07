@@ -33,7 +33,13 @@ body {
   border-radius: 20px;
   outline: none;
   cursor: pointer;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.neumorphism-toggls > input[type='checkbox'].neumorphism:checked {
+  box-shadow: 0 0 15px rgba(209, 217, 230, 1), 0 0 15px rgba(255, 255, 255, 1),
+    inset 10px 10px 15px rgba(209, 217, 230, 1),
+    inset -10px -10px 15px rgba(255, 255, 255, 1);
 }
 
 .neumorphism-toggls > input[type='checkbox'].neumorphism::before {
@@ -46,12 +52,6 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
-}
-
-.neumorphism-toggls > input[type='checkbox'].neumorphism:checked {
-  box-shadow: 0 0 15px rgba(209, 217, 230, 1), 0 0 15px rgba(255, 255, 255, 1),
-    inset 10px 10px 15px rgba(209, 217, 230, 1),
-    inset -10px -10px 15px rgba(255, 255, 255, 1);
 }
 
 .neumorphism-toggls > input[type='checkbox'].neumorphism:checked::before {
