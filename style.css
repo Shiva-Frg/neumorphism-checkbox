@@ -57,3 +57,28 @@ body {
 .neumorphism-toggls > input[type='checkbox'].neumorphism:checked::before {
   color: #12e2a3;
 }
+
+.neumorphism-toggles > input[type='checkbox'].neumorphism.fa-home::before {
+  content: '\f015';
+}
+
+.neumorphism-toggles > input[type='checkbox'].neumorphism.fa-bell::before {
+  content: '\f0f3';
+}
+
+.neumorphism-toggles > input[type='checkbox'].neumorphism.fa-lightbulb::before {
+  content: '\f0eb';
+}
+
+.neumorphism-toggles
+  > input[type='checkbox'].neumorphism.fa-thermometer-half::before {
+  content: '\f2c9';
+}
+
+.neumorphism-toggles > input[type='checkbox'].neumorphism.fa-laptop::before {
+  content: '\f109';
+}
+
+.neumorphism-toggles > input[type='checkbox'].neumorphism.fa-blender::before {
+  content: '\f517';
+}
